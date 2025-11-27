@@ -1,0 +1,12 @@
+{
+  "name": "github-activity",
+  "version": "1.0.0",
+  "description": "GitHub Activity Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "build:config": "node env-to-config.js",
+    "start": "npm run build:config"
+  },
+  "author": "",
+  "license": "ISC"
+}
